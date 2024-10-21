@@ -29,9 +29,15 @@ h1{
 }
 #fp{
    color: black;
+   box-shadow: 1px 4px 5px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 1px 4px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 1px 4px 5px 0px rgba(0,0,0,0.75);
 }
 #sp{
     color: black;
+    box-shadow: 1px 4px 5px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 1px 4px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 1px 4px 5px 0px rgba(0,0,0,0.75);
     
 }
 .container2{
@@ -45,5 +51,44 @@ h1{
  .vdo{
     margin: 5em;
  }
+ .button{
+    width: 10%;
+    text-align: center;
+    float: right;
+    border-radius: 86px 86px 86px 86px;
+-webkit-border-radius: 86px 86px 86px 86px;
+-moz-border-radius: 86px 86px 86px 86px;
+    
+ }
+ .bt1{
+    text-decoration: none;
+ }
+ .bt1{
+
+    background: radial-gradient(circle at 100% 100%, #ffffff 0, #ffffff 2px, transparent 2px) 0% 0%/8px 8px no-repeat,
+            radial-gradient(circle at 0 100%, #ffffff 0, #ffffff 2px, transparent 2px) 100% 0%/8px 8px no-repeat,
+            radial-gradient(circle at 100% 0, #ffffff 0, #ffffff 2px, transparent 2px) 0% 100%/8px 8px no-repeat,
+            radial-gradient(circle at 0 0, #ffffff 0, #ffffff 2px, transparent 2px) 100% 100%/8px 8px no-repeat,
+            linear-gradient(#ffffff, #ffffff) 50% 50%/calc(100% - 12px) calc(100% - 16px) no-repeat,
+            linear-gradient(#ffffff, #ffffff) 50% 50%/calc(100% - 16px) calc(100% - 12px) no-repeat,
+            radial-gradient(at 100% 100%, #f400ad 20%, transparent 70%),
+            radial-gradient(at 100% 0%, #7e00ff 0%, transparent 70%),
+            radial-gradient(at 0% 0%, #ec00ff 0%, rgba(236, 0, 255, 0.922) 52%, transparent 70%),
+            #1000ff;
+border-radius: 8px;
+padding: 10px;
+box-sizing: border-box;
+}
+.bt1{
+   float: right;
+   width: 10em;
+   text-align: center;
+}
+.bt1:hover{
+   box-shadow: -1px 1px 5px 7px rgba(0,0,0,1);
+-webkit-box-shadow: -1px 1px 5px 7px rgba(0,0,0,1);
+-moz-box-shadow: -1px 1px 5px 7px rgba(0,0,0,1);
+}
+ 
 
  
