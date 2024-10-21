@@ -1,0 +1,49 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-size: x-large;
+    background:rgb(251,242,242);
+    color: white;
+    font-family: "Noto Sans Thai", sans-serif;
+
+}
+.header1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+h1{
+    background: #1E3ECF;
+    background: linear-gradient(to right, #1E3ECF 0%, #CF18CC 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.container1{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+}
+.personal{
+    padding: 5em;
+}
+#fp{
+   color: black;
+}
+#sp{
+    color: black;
+    
+}
+.container2{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+ }
+ .img{
+    margin: 5em;
+ }
+ .vdo{
+    margin: 5em;
+ }
+
+ 
