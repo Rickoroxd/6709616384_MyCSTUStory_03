@@ -1,35 +1,41 @@
 body{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+    background-color: rgb(255, 255, 255);
     font-family: "Noto Sans Thai", sans-serif;
 }
-.head{
+header{
     text-align: center;
-    background: #1E3ECF;
-    background: linear-gradient(to right, #1E3ECF 0%, #CF18CC 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    margin: 1em;
 }
-.fline{
+.allpic{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 1em;
+}
+content{
     display: flex;
     flex-direction: row;
     justify-content: center;
+    margin: 2em;
+}
+.text{
+    font-size: 2em;
+    width: 75%;
 }
 .container{
-    width:50%;
-    background-color: aquamarine;
-    height: 70%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 1em;
 }
-.conn{
-    display:flex;
-    flex-direction:row;
-    justify-content:center;
-    border-radius: 30em;
+a:hover{
+    box-shadow: -1px 0px 5px 2px rgba(0,0,0,1);
+-webkit-box-shadow: -1px 0px 5px 2px rgba(0,0,0,1);
+-moz-box-shadow: -1px 0px 5px 2px rgba(0,0,0,1);
 }
-img{
-    border-radius: 5em;
-}
+
+
+
 a{  text-decoration: none;
     margin: 100px;
     padding: 15px 40px;
