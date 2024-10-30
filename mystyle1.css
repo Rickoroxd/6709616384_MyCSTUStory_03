@@ -127,3 +127,72 @@ a[href="myjourney.html"]:active {
   padding: 0 10% 10% 10% ;
 }
 
+@media (min-width:0px) and (max-width:767px) {
+  body{
+    font-size: 1rem;
+  }
+  .lh{
+    width: 30%;
+  }
+  .ht{
+    width: 70%;
+  }
+  content{
+    display:flex;
+    flex-direction: column;
+  }
+  footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .con1{
+    padding: 1em;
+  }
+  .con2{
+    padding: 1em;
+  }
+  .p1{
+    padding: 1em;
+  }
+  .p2{
+    padding: 1em;
+  
+  }
+ 
+}
+
+
+
+
+
+
+
+
+
+@media  (min-width:768px) and (max-width:1279px){
+  content{
+    display:flex;
+    flex-direction: column;
+  }
+  footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .con1{
+    padding: 1em;
+  }
+  .con2{
+    padding: 1em;
+  }
+  .p1{
+    padding: 1em;
+  }
+  .p2{
+    padding: 1em;
+  
+  }
+}
+
+
