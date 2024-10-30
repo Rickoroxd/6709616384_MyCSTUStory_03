@@ -9,7 +9,7 @@ header{
     font-size: 3em;
     background: #1E3ECF;
     background: linear-gradient(to right, #1E3ECF 0%, #CF18CC 100%);
-    -webkit-background-clip: text;
+    -webkit-background-clip:text;
     -webkit-text-fill-color: transparent;
 }
 img{
